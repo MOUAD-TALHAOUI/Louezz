@@ -1,0 +1,195 @@
+/*-- Body Reset --*/
+body {
+  overflow-x: hidden;
+  font-family: 'Montserrat', sans-serif;
+  /*color: #616971;*/
+}
+
+/*============= TOP BAR HEADER =============*/
+
+
+
+
+/*============= CAROUSEL =============*/
+#carousel1{
+  box-shadow: 1 2rem 2rem rgba(0, 0, 0, .2);
+}
+.carousel-inner{
+  max-height: 38rem!important;
+}
+
+
+/*---Change Carousel Transition Speed --*/
+
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active{
+  transition: transform 1.2s ease;
+}
+
+/*-- Carousel Content --*/
+.carousel-caption{
+  position: absolute;
+  top : 43%;
+  transform: translateY(-50%);
+  text-transfrom : uppercase;
+}
+
+.bg-custom{
+  background-color: rgba(0, 0, 0, .4);
+  color : white;
+  border-radius: .5rem;
+
+}
+.carousel-caption h1{
+  font-size: 3.8rem;
+  text-shadow: .1rem .1rem .3rem rgba(0, 0, 0, 1);
+}
+input.input100 {
+  height: 40px;
+  border-radius: 20px;
+  padding: 0 30px 0 50px;
+}
+
+/*-------------- offre carousel ----------------*/
+
+
+#carousel2{
+  box-shadow: 1 2rem 2rem rgba(0, 0, 0, .4);
+}
+
+#carousel2 .carousel-control-prev,
+#carousel2 .carousel-control-next{
+  color :rgba(0, 0, 0, .7);
+  
+}
+#carousel2 .carousel-control-prev{
+  left: -2rem;
+}
+#carousel2 .carousel-control-next{
+  right: -2rem
+}
+
+.datepub {
+	text-align: right;
+}
+
+.tcb-product-slider {
+  /*background: #333;*/
+  /*background-image : url(https://unsplash.it/1240/530?image=721);*/
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 30px 0;
+  box-shadow: 1 2rem 2rem rgba(0, 0, 0, .4);
+}
+.tcb-product-slider  {
+  width: 100%;
+}
+.tcb-product-item a {
+  color: #147196;
+}
+.tcb-product-item a:hover {
+  text-decoration: none;
+}
+.tcb-product-item .tcb-hline {
+  margin: 10px 0;
+  height: 1px;
+  background: #ccc;
+  
+}
+.tcb-product-item{
+	box-shadow:  5px 5px 25px -4px rgba(144,144,144,0.5);
+}
+/*@media all and (max-width: 500px) {
+  .tcb-product-item {
+    margin-bottom: 30px;
+  }
+}*/
+.tcb-product-photo {
+  text-align: center;
+  height: 100%;
+  background: #fff;
+  
+}
+.tcb-product-photo img {
+  height: 100%;
+  display: inline-block;
+  
+}
+.tcb-product-info {
+  background: #f0f0f0;
+  padding: 15px;
+}
+.tcb-product-title{
+  margin-top: 3px;
+  font-weight : 900;
+  color : #6495ED;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.tcb-product-price {
+  color: firebrick;
+  font-size: 18px;
+}
+
+/*===== FIXED BACKGROUND IMG =====*/
+
+.fixed-background {
+  overflow: hidden; /*-- Correction for iOS --*/
+}
+
+
+/*-- Authentification --*/
+
+
+/*============= FOOTER =============*/
+
+
+
+/*============= SOCKET =============*/
+
+/*.client-img img{
+  height: 3rem;
+  width : 3rem;
+}*/
+
+/*============= MEDIA QUERIES =============*/
+
+/* Devices under 1199px (xl) */
+@media (max-width: 1199.98px) {
+
+}
+/* Devices under 768px (md) */
+@media (max-width: 767.98px) {
+
+}
+
+
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
+
+/*-- Bootstrap Mobile Gutter Fix --*/
+.row, .container-fluid {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+
+/*-- Fixed Background Image --*/
