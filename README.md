@@ -29,5 +29,25 @@
 - Component-Based Architecture
 - Lazy Loading
 - Authentication Guard
-- OpenAPI Generator for Angular
 - Bootstrap
+
+# Running the project
+## The docker compose file:
+Run the comand:
+```
+docker-compose up
+```
+To enter into mysql database run the command:
+```
+docker exec -it louezz-db-1 mysql -u root -p
+```
+## Louezz-api:
+Run the comand:
+```
+mvn spring-boot:run
+```
+## Louezz-ui:
+run the command:
+```
+ng serve -o
+```
